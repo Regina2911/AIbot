@@ -1,6 +1,6 @@
 import telebot
 import requests
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
 @bot.message_handler(commands=['start'])
 def start_message(message):
     bot.reply_to(message, "Привет! Я бот для получения и анализа изображений. Отправь фото для анализа изображения")
