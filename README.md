@@ -22,7 +22,7 @@ cd cat-breed-classifier-bot
 pip install -r requirements.txt
 
 3. Set your Telegram token in `.env` file:
-TELEGRAM_BOT_TOKEN=your_token_here
+bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
 
 4. Run the bot:
 python bot.py
